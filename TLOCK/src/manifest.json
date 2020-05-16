@@ -1,0 +1,89 @@
+{
+  "manifest_version": 2,
+  "name": "TLOCK",
+  "version": "0.01",
+
+  "description": "Cheat & Tool for DarkOrbit | AutoLock",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.darkorbit.com/indexInternal.es?action=internalMapRevolution"],
+      "js": [
+        "JavaScripts/Factories/ControlFactory.js",
+        "JavaScripts/Factories/WindowFactory.js",
+
+        "JavaScripts/Handlers/HandlersManager.js",
+        "JavaScripts/Handlers/Commands/AssetCreatedHandler.js",
+        "JavaScripts/Handlers/Commands/GateInitHandler.js",
+        "JavaScripts/Handlers/Commands/HeroDiedHandler.js",
+        "JavaScripts/Handlers/Commands/HeroInitHandler.js",
+        "JavaScripts/Handlers/Commands/HeroUpdateHitpointsHandler.js",
+        "JavaScripts/Handlers/Commands/ShipAttackHandler.js",
+        "JavaScripts/Handlers/Commands/ShipCreateHandler.js",
+        "JavaScripts/Handlers/Commands/ShipDestroyedHandler.js",
+        "JavaScripts/Handlers/Commands/ShipMoveHandler.js",
+        "JavaScripts/Handlers/Commands/ShipRemovedHandler.js",
+        "JavaScripts/Handlers/Commands/ShipSelectedHandler.js",
+        "JavaScripts/Handlers/Events/HeroPositionUpdateEventHandler.js",
+
+
+        "JavaScripts/Libraries/jquery-3.2.1.min.js",
+        "JavaScripts/Libraries/jquery-ui.min.js",
+        "JavaScripts/Libraries/konva.min.js",
+        "JavaScripts/Libraries/md5.min.js",
+
+        "JavaScripts/Objects/Movable.js",
+        "JavaScripts/Objects/Gate.js",
+        "JavaScripts/Objects/Hero.js",
+        "JavaScripts/Objects/Ship.js",
+        "JavaScripts/Objects/CBS/Battlestation.js",
+        "JavaScripts/Objects/CBS/BattlestationModule.js",
+
+        "JavaScripts/Settings/GlobalSettings.js",
+        "JavaScripts/Settings/Settings.js",
+
+        "JavaScripts/Utils/ColorConverter.js",
+        "JavaScripts/Utils/DragAndDrop.js",
+        "JavaScripts/Utils/Injector.js",
+        "JavaScripts/Utils/ResourcesManager.js",
+        "JavaScripts/Utils/TabsHelper.js",
+        "JavaScripts/Utils/TimeHelper.js",
+        "JavaScripts/Utils/Variables.js",
+        "JavaScripts/Utils/WebClient.js",
+        "JavaScripts/Utils/Math/MathUtils.js",
+        "JavaScripts/Utils/Math/Vector2D.js",
+
+        "JavaScripts/Windows/AttackWindow.js",
+        "JavaScripts/Windows/AutolockWindow.js",
+        "JavaScripts/Windows/Minimap.js",
+
+        "JavaScripts/Api.js",
+        "JavaScripts/Main.js"
+      ],
+      "css": [
+        "CSS/style.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+
+  "background": {
+    "scripts": ["JavaScripts/Background/Background.js"]
+  },
+
+  "web_accessible_resources": [
+    "JavaScripts/Injectables/*"
+  ],
+
+  "options_ui": {
+    "page": "html/settings.html",
+    "open_in_tab": false
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
