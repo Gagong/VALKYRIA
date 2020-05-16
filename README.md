@@ -8,11 +8,11 @@ TLOCK - extension based on Toshinou Bot methods.
 
 ### Prerequisites
 
-Google Chrome (Required)
-Opera
-Opera GX
+* Google Chrome (Required)
+* Opera
+* Opera GX
 
-### Installing Extension
+## Installing Extension
 
 1) Download repository by clicking here: [Download!](https://github.com/Gagong/TLOCK/archive/master.zip)
 
@@ -26,7 +26,7 @@ Opera GX
 
 ![DeveloperMode](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/DeveloperMode.PNG)
 
-5) Press **"Load Unpacked"** and select unpacked DOPE-SID-Login folder
+5) Press **"Load Unpacked"** and select unpacked **src** folder from TLOCK
 
 ![LoadUnpacked](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/LoadUnpacked.PNG)
 
