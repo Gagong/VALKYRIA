@@ -8,9 +8,9 @@ TLOCK - extension based on Toshinou Bot methods.
 
 ### Prerequisites
 
-Google Chrome (Required)
-Opera
-Opera GX
+* Google Chrome (Required)
+* Opera
+* Opera GX
 
 ## Installing Extension
 
