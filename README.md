@@ -26,7 +26,7 @@ Opera GX
 
 ![DeveloperMode](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/DeveloperMode.PNG)
 
-5) Press **"Load Unpacked"** and select unpacked DOPE-SID-Login folder
+5) Press **"Load Unpacked"** and select unpacked **src** folder from TLOCK
 
 ![LoadUnpacked](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/LoadUnpacked.PNG)
 
