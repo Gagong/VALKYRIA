@@ -12,7 +12,7 @@ Google Chrome (Required)
 Opera
 Opera GX
 
-### Installing Extension
+## Installing Extension
 
 1) Download repository by clicking here: [Download!](https://github.com/Gagong/TLOCK/archive/master.zip)
 
