@@ -5,31 +5,40 @@ class AutolockWindow {
 			text: "Autolocker"
 		});
 
+
 		let options = [
 			{
 				name: 'keyEnemy',
 				type: 'text',
-				labelText: 'enemy keys',
+				
+				labelBefore: true,
+				labelText: 'Enemy keys: ',
 				appendTo: this.autolockWindow,
 				attrs:{
-					value: ""
+					value: "z",
 				},
 				eventType: 'keyup',
 				event: function (){
 					window.settings.enemyAutoLockKeys = this.value;
+					$('span:last-child', this.label).text(' (' + this.value + ')');
+					
 				}
 			},
 			{
 				name: 'keyNpc',
 				type: 'text',
-				labelText: 'npc keys',
+				
+				labelBefore: true,
+				labelText: 'Npc keys: ',
 				appendTo: this.autolockWindow,
 				attrs:{
-					value: ""
+
+					value: "x",
 				},
 				eventType: 'keyup',
 				event: function (){
 					window.settings.npcAutoLockKeys = this.value;
+					$('span:last-child', this.label).text(' (' + this.value + ')');
 				}
 			},
 			{
