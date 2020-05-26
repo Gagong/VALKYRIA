@@ -10,35 +10,116 @@ class AutolockWindow {
 			{
 				name: 'keyEnemy',
 				type: 'text',
-				
+				span: true,
 				labelBefore: true,
-				labelText: 'Enemy keys: ',
+				labelText: 'Enemy key: ',
 				appendTo: this.autolockWindow,
 				attrs:{
-					value: "z",
+					value: "",
+					maxlength: "1",
 				},
 				eventType: 'keyup',
 				event: function (){
-					window.settings.enemyAutoLockKeys = this.value;
-					$('span:last-child', this.label).text(' (' + this.value + ')');
-					
+					window.keyManager.updateAction(EnemyAutoLockAction.NAME, this.value);
 				}
 			},
 			{
 				name: 'keyNpc',
 				type: 'text',
-				
+				span: true,
 				labelBefore: true,
-				labelText: 'Npc keys: ',
+				labelText: 'Npc key: ',
 				appendTo: this.autolockWindow,
 				attrs:{
-
-					value: "x",
+					value: "",
+					maxlength: "1",
 				},
 				eventType: 'keyup',
 				event: function (){
-					window.settings.npcAutoLockKeys = this.value;
-					$('span:last-child', this.label).text(' (' + this.value + ')');
+					window.keyManager.updateAction(NpcAutoLockAction.NAME, this.value);
+				}
+			},
+			{
+				name: 'keyKamikaze',
+				type: 'text',
+				span: true,
+				labelBefore: true,
+				labelText: 'Kamikaze key: ',
+				appendTo: this.autolockWindow,
+				attrs:{
+					value: "",
+					maxlength: "1",
+				},
+				eventType: 'keyup',
+				event: function (){
+					window.keyManager.updateAction(KamikazePetAction.NAME, this.value);
+				}
+			},
+			{
+				name: 'keyGuard',
+				type: 'text',
+				span: true,
+				labelBefore: true,
+				labelText: 'Guard key: ',
+				appendTo: this.autolockWindow,
+				attrs:{
+					value: "",
+					maxlength: "1",
+				},
+				eventType: 'keyup',
+				event: function (){
+					window.keyManager.updateAction(GuardPetAction.NAME, this.value);
+				}
+			},
+			{
+				name: 'laserSlots',
+				type: 'text',
+				span: true,
+				labelBefore: true,
+				labelText: 'Laser slots: ',
+				appendTo: this.autolockWindow,
+				attrs:{
+					value: "|",
+					maxlength: "3",
+				},
+				eventType: 'change',
+				event: function (){
+					let slots = this.value.split("|").map(slot => parseInt(slot));
+					window.fightPresetsManager.fightPreset.slotsManager.updateSlotDependencies(slots[0], slots[1]);
+				}
+			},
+			{
+				name: 'rocketSlots',
+				type: 'text',
+				span: true,
+				labelBefore: true,
+				labelText: 'Rocket slots: ',
+				appendTo: this.autolockWindow,
+				attrs:{
+					value: "|",
+					maxlength: "3",
+				},
+				eventType: 'change',
+				event: function (){
+					let slots = this.value.split("|").map(slot => parseInt(slot));
+					window.fightPresetsManager.fightPreset.slotsManager.updateSlotDependencies(slots[0], slots[1]);
+				}
+			},
+			{
+				name: 'otherSlots',
+				type: 'text',
+				span: true,
+				labelBefore: true,
+				labelText: 'Other slots: ',
+				appendTo: this.autolockWindow,
+				attrs:{
+					value: "|",
+					maxlength: "10",
+				},
+				eventType: 'change',
+				event: function (){
+					let slots = this.value.split("|").map(slot => parseInt(slot));
+					window.fightPresetsManager.fightPreset.slotsManager.updateUnpairedTimerSlots(slots);
 				}
 			},
 			{

@@ -28,17 +28,23 @@ class Api {
         Injector.injectScript(scr);
     }
 
-    // lockNpc(ship) {
-    //     if (!(ship instanceof Ship))
-    //         return;
-    //
-    //     if (this.ships[ship.id] == null)
-    //         return;
-    //
-    //     this.lockTime = $.now();
-    //
-    //     this.lockShip(ship);
-    // }
+    pressKey(keyCode){
+
+       // console.log(`key pressed ${keyCode}`);
+        let scr  = `document.getElementById("preloader").pressKey(${48 + keyCode});`;
+        Injector.injectScript(scr);
+    }
+
+    usePet(actionId){
+        let scr  = `document.getElementById("preloader").usePet(${actionId});`;
+        Injector.injectScript(scr);
+    }
+
+    usePetModule(moduleId){
+        let scr  = `document.getElementById("preloader").usePetModule(${moduleId});`;
+        Injector.injectScript(scr);
+    }
+
 
     startLaserAttack() {
         Injector.injectScript('document.getElementById("preloader").laserAttack()');
