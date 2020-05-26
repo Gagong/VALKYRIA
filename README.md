@@ -83,7 +83,8 @@ TLOCK - extension based on Toshinou Bot methods.
 
 ## Contributors
 
-* **RemmoDY** - *Help with sfw*
+* **RemmoDY** - *Help with swf*
+* **Buttman** - *AutoAmmo changer, AutoPET changer, code improve, swf update*
 
 ## Credit
 
