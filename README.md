@@ -5,6 +5,7 @@ Extension to make your life more easier
 ## Getting Started
 
 TLOCK - extension based on Toshinou Bot methods.
+Discord: https://discord.gg/pwcKZW5
 
 ### Prerequisites
 
