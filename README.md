@@ -91,6 +91,10 @@ Extension to make your life more easier
 
 * **Freshek** - *Create Toshinou*
 
+## ChangeLog
+
+* [ChangeLog](https://raw.githubusercontent.com/Gagong/VENDER/master/ChangeLog.log)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
