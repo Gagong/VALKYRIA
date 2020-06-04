@@ -3,6 +3,12 @@
   "name": "VENDER",
   "version": "0.2",
 
+  "icons": {
+    "16": "ExtensionLogo/logo16.png",
+    "48": "ExtensionLogo/logo48.png",
+    "128": "ExtensionLogo/logo128.png" 
+  },
+
   "description": "Cheat & Tool for DarkOrbit | AutoLock",
 
   "content_scripts": [
