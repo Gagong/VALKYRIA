@@ -6,7 +6,7 @@ class GlobalSettings {
       headerOpacity: "0.9",
       windowColor: "#191919",
       windowOpacity: "0.8",
-      timerTick: 50,
+      timerTick: 500,
       windowsToTabs: false,
     }, items => {
       self._settings = items;
