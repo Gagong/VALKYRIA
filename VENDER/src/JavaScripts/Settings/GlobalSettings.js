@@ -29,6 +29,6 @@ class GlobalSettings {
   }
 
   get windowsToTabs() {
-    return this.windowsToTabs;
+    return this._windowsToTabs;
   }
 }
