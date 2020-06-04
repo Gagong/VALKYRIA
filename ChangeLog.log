@@ -1,0 +1,26 @@
+v.01 | 16.05.2020
++ Public release TLOCK
+
+v.011 | 16.05.2020
+- JQuery path fix
+
+v.1 | 17.05.2020
+- Improve & refactor autolock
++ Add custom key usage for autolock (TODO: Add some style for it)
+- Improve code
+
+v.11 | 18.05.2020
+- Fixed auto lock target selecting if ally ship is closets then enemy
+
+v.12 | 26.05.2020
++ Ammo auto changer (Lasers + Rockets + Other)
++ PET Auto changer (Auto Revive PET + Auto Guard + Auto Kami)
+- AutoLock issue when ally is closest then enemy
+- Improve code
+
+v.2 | 04.06.2020
++ Updated to latest DO client.
+
+v.21 | 04.06.2020
++ Updated to latest DO client
+- Code hotfixes
