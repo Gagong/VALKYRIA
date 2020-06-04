@@ -33,7 +33,7 @@ Extension to make your life more easier
 
 6) Press "Details"
 
-![Details](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/Details.png)
+![Details](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/VENDERDone.png)
 
 7) Allow in incognito mode
 
