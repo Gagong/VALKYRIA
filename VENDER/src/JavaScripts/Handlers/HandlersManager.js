@@ -26,7 +26,7 @@ class HandlersManager {
           wholeMessage: e.detail
         }, self._api);
       }
-      console.log(e.detail)
+      //console.log(e.detail)
     });
   }
 }
