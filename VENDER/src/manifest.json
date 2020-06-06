@@ -13,7 +13,9 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.darkorbit.com/indexInternal.es?action=internalMapRevolution"],
+      "matches": [
+        "*://*.darkorbit.com/indexInternal.es?action=internalMapRevolution"
+      ],
       "js": [
         "JavaScripts/Factories/ControlFactory.js",
         "JavaScripts/Factories/WindowFactory.js",

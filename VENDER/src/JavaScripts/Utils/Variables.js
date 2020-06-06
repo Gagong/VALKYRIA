@@ -217,11 +217,11 @@ class Variables {
   }
   */
 
-  static get assetCreateX() {
+  static get assetCreateY() {
     return "_-93a";
   }
 
-  static get assetCreateY() {
+  static get assetCreateX() {
     return "_-r1M";
   }
 
