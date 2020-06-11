@@ -1,6 +1,6 @@
 class ShipDestroyedHandler {
   static get ID() {
-    return 21739;
+    return 6187;
   }
 
   constructor() {
@@ -14,6 +14,13 @@ class ShipDestroyedHandler {
         window.attackWindow.targetName("");
         a.resetTarget();
       }
+
+      if (id === window.hero.id) 
+        a.markHeroAsDead();
+
+      if (window.pet.id != null && id === window.pet.id)
+        window.hero.pet.handleUpdate({deadStatus: true});
+
       let ship = a.ships[id];
       if (ship)
         delete a.ships[id];

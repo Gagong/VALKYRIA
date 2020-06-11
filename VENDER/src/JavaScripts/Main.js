@@ -18,7 +18,6 @@ $(document).ready(function () {
     let hm = new HandlersManager(api);
     hm.registerCommand(AssetCreatedHandler.ID, new AssetCreatedHandler());
     hm.registerCommand(GateInitHandler.ID, new GateInitHandler());
-    hm.registerCommand(HeroDiedHandler.ID, new HeroDiedHandler());
     hm.registerCommand(HeroInitHandler.ID, new HeroInitHandler(init));
     hm.registerCommand(HeroUpdateHitpointsHandler.ID, new HeroUpdateHitpointsHandler());
     hm.registerCommand(ShipAttackHandler.ID, new ShipAttackHandler());
@@ -28,7 +27,6 @@ $(document).ready(function () {
     hm.registerCommand(ShipRemovedHandler.ID, new ShipRemovedHandler());
     hm.registerCommand(ShipSelectedHandler.ID, new ShipSelectedHandler());
     hm.registerCommand(PetActivatedHandler.ID, new PetActivatedHandler());
-    hm.registerCommand(PetDestroyedHandler.ID, new PetDestroyedHandler());
 
     hm.registerEvent("updateHeroPos", new HeroPositionUpdateEventHandler());
     hm.registerEvent("ammoUpdate", new AmmoUpdateEventHandler());

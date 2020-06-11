@@ -6,22 +6,17 @@ class SlotsManager{
 
     initSlots(){
         this.slots = [];
-
-        for (let i = 1; i <= 10; i++){
+        for (let i = 1; i <= 10; i++)
             this.slots.push(new Slot(i));
-        }
     }
 
    handleSlotUpdate(slotId, state){
         let slot = this.getSlotById(slotId);
-        //let slotStateChanged = slot ? this.isSlotStateChanged(slot, state) : false;
-
+        
         if (slot) {
             this.updateSlot(slot, state);
-
-            if (window.fightPresetsManager.fightPreset.attackAvailability) {
+            if (window.fightPresetsManager.fightPreset.attackAvailability) 
                 this.handleAttack();
-            }
         }
     }
 
@@ -77,11 +72,8 @@ class SlotsManager{
         let primarySlot = this.getSlotById(primaryId);
         let secondarySlot = this.getSlotById(secondaryId);
 
-        //console.log(`${primarySlot}, ${secondarySlot}`);
-
-        if (primarySlot && secondarySlot){
+        if (primarySlot && secondarySlot)
             primarySlot.secondarySlot = secondarySlot;
-        }
     }
 
    updateSlot(slot, state){

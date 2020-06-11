@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "VENDER",
-  "version": "0.22",
+  "version": "0.23",
 
   "icons": {
     "16": "ExtensionLogo/logo16.png",
@@ -40,10 +40,8 @@
         "JavaScripts/Handlers/KeyEventsManager.js",
         "JavaScripts/Handlers/Commands/AssetCreatedHandler.js",
         "JavaScripts/Handlers/Commands/GateInitHandler.js",
-        "JavaScripts/Handlers/Commands/HeroDiedHandler.js",
         "JavaScripts/Handlers/Commands/HeroInitHandler.js",
         "JavaScripts/Handlers/Commands/PetActivatedHandler.js",
-        "JavaScripts/Handlers/Commands/PetDestroyedHandler.js",
         "JavaScripts/Handlers/Commands/HeroUpdateHitpointsHandler.js",
         "JavaScripts/Handlers/Commands/ShipAttackHandler.js",
         "JavaScripts/Handlers/Commands/ShipCreateHandler.js",

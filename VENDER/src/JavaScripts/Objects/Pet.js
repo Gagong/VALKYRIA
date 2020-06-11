@@ -12,7 +12,6 @@ class Pet extends Observable{
         let gearActivatable = !hasTimer ? true : this.timerGearStatuses[gearId];
 
         if (gearActivatable ) {
-            //console.log("gear used");
             window.api.usePetModule(gearId);
         }
     }
@@ -60,16 +59,13 @@ class Pet extends Observable{
     }
 
     handleUpdate({deadStatus = null, gear = null, id = null}){
-       // console.log(`${deadStatus}, ${gear}, ${id}`);
         this.isDead = deadStatus ? deadStatus : this._isDead;
         this.id = id ? id : this.id;
 
-        if (gear){
+        if (gear)
             this.updateTimerGearStatuses(gear.cooldownId, gear.status)
-        }
 
         this.notifyObservers();
         this.lastTimeUpdated = $.now();
     }
-
 }

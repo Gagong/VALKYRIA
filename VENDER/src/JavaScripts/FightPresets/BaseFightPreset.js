@@ -22,8 +22,6 @@ class BaseFightPreset{
     }
 
     get attackAvailability(){
-        // console.log(window.api.targetShip);
-        // console.log(window.)
         return window.api.targetShip && window.hero.isAttacking
             && window.api.targetShip == window.api.lockedShip;
     }
@@ -31,8 +29,6 @@ class BaseFightPreset{
     get slotsManager(){
         return this._slotsManger;
     }
-
-
 
     // handleFightMixins(){
     //     this.fightMixins.forEach(fightMixin =>
@@ -51,6 +47,4 @@ class BaseFightPreset{
     // set countDownItems(items){
     //     this._countDownItems = items;
     // }
-
-
 }
