@@ -15,19 +15,19 @@ class Variables {
   */
 
   static get attackerId() {
-    return "_-JS";
+    return "_-85f";
   }
 
   static get attackedId() {
-    return "_-Q47";
+    return "_-83z";
   }
 
   static get attackHp() {
-    return "_-lS"; 
+    return "_-P1N"; 
   }
 
   static get attackShd() {
-    return "_-KZ"; 
+    return "_-K3Z"; 
   }
 
   //END ATTACH SECTION
@@ -44,7 +44,7 @@ class Variables {
   */
 
   static get moveDuration() {
-    return "_-p1z"; 
+    return "_-Fm"; 
   }
 
   //END MOVE DURATION SECTION
@@ -59,7 +59,7 @@ class Variables {
   */
 
   static get shipDestoyedId() {
-    return "_-K4G";
+    return "_-R3W";
   }
 
   //END SHIP DESTROYED SECTION
@@ -104,15 +104,15 @@ class Variables {
   */
 
   static get heroInitMaxHp() {
-    return "_-02W";
+    return "_-S2e";
   }
 
   static get heroInitMaxShd() {
-    return "_-32M";
+    return "_-mF";
   }
 
   static get heroInitHp() {
-    return "_-E33";
+    return "_-y1z";
   }
 
   //END INIT SECTION
@@ -129,7 +129,7 @@ class Variables {
   */
 
   static get hpUpdateMaxHp() {
-    return "_-w3n";
+    return "_-624";
   }
 
   //END UPDATE HP SECTION
@@ -151,11 +151,11 @@ class Variables {
   */
 
   static get selectMaxHp() {
-    return "_-w3n"; 
+    return "_-624"; 
   }
 
   static get selectMaxShd() {
-    return "_-32M";
+    return "_-mF";
   }
 
   //END SHIPSELECT SECTION
@@ -189,7 +189,7 @@ class Variables {
   */
 
   static get clanDiplomacy() {
-    return "_-Qk";
+    return "_-r4l";
   }
 
   //END SHIP CREATE SECTION
@@ -209,24 +209,24 @@ class Variables {
     "_-71f":1048592,
     "_-R3f":38631,
     "_-H4N":false,
-    "_-D1h":10624, = Y
+    "_-D1h":10624, = X
     "type":{"_-Cw":36},
     "_-f2y":false,
     "modifier":[{"count":1,"userId":150000643,"_-Z3l":"","attribute":41158,"modifier":33,"activated":true}],
-    "_-jA":2443 = X
+    "_-jA":2443 = Y
   }
   */
 
-  static get assetCreateX() {
-    return "_-01z";
+  static get assetCreateY() {
+    return "_-K5Q";
   }
 
-  static get assetCreateY() {
-    return "_-81j";
+  static get assetCreateX() {
+    return "_-sL";
   }
 
   static get battlestationClanDiplomacy() {
-    return "_-B5E";
+    return "_-q2F";
   }
 
   //END CBS SECTION
@@ -247,11 +247,11 @@ class Variables {
   */
 
   static get gateId() {
-    return "_-AI";
+    return "_-6u";
   }
 
   static get gateType() {
-    return "_-q1W";
+    return "_-xO";
   }
 
   //END GATES SECTION
@@ -259,7 +259,7 @@ class Variables {
   //START PET SECTION
 
   /*
-  9206|{
+  9057|{
     "x":23559,
     "_-a2v":22,
     "_-R3f":0,
@@ -277,12 +277,12 @@ class Variables {
   */
 
   static get petId() {
-    return "_-R7";
+    return "_-L5F";
   }
 
   static get petMasterId() {
-    return "_-K1B";
+    return "_-M58";
   }
 
-  //START GATES SECTION
+  //END PET SECTION
 }

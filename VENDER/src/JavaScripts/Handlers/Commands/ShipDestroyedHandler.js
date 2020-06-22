@@ -18,7 +18,7 @@ class ShipDestroyedHandler {
       if (id === window.hero.id) 
         a.markHeroAsDead();
 
-      if (window.pet.id != null && id === window.pet.id)
+      if (window.hero.pet.id != null && id === window.hero.id)
         window.hero.pet.handleUpdate({deadStatus: true});
 
       let ship = a.ships[id];
