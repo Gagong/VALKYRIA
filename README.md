@@ -1,10 +1,10 @@
-# VENDER | DarkOrbit Free AutoLock
+# VALKYRIA | DarkOrbit Free AutoLock
 
 Extension to make your life more easier
 
 ## Getting Started
 
-* VENDER - extension based on Toshinou Bot methods.
+* VALKYRIA - extension based on Toshinou Bot methods.
 * Discord: https://discord.gg/pwcKZW5
 
 ### Prerequisites
@@ -27,7 +27,7 @@ Extension to make your life more easier
 
 ![DeveloperMode](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/DeveloperMode.PNG)
 
-5) Press **"Load Unpacked"** and select unpacked **src** folder from VENDER
+5) Press **"Load Unpacked"** and select unpacked **src** folder from VALKYRIA
 
 ![LoadUnpacked](https://github.com/Gagong/DOPE-SID-Login/raw/master/Docs/LoadUnpacked.PNG)
 
@@ -68,7 +68,7 @@ Extension to make your life more easier
 
 6) Done!
 
-## Run VENDER
+## Run VALKYRIA
 
 1) Open Fiddler
 
@@ -106,3 +106,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * DarkOrbit
 * TLOCK
 * VENDER
+* VALKYRIA
