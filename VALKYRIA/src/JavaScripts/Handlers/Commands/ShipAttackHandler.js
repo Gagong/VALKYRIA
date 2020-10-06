@@ -1,6 +1,6 @@
 class ShipAttackHandler {
   static get ID() {
-    return 25250;
+    return 28;
   }
 
   constructor() {

@@ -1,6 +1,6 @@
 class PetActivatedHandler {
   static get ID() {
-    return 9057;
+    return 155;
   }
 
   constructor() {

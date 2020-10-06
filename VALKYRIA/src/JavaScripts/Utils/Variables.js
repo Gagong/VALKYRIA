@@ -2,7 +2,7 @@ class Variables {
   //START ATTACK SECTION
 
   /*
-  25250|{
+  28|{
     "damage":843,
     "_-gK":0,
     "_-oG":false,
@@ -14,20 +14,20 @@ class Variables {
   }
   */
 
-  static get attackerId() {
-    return "_-t0";
+  static get attackerId() { //
+    return "_-c3k";
   }
 
-  static get attackedId() {
-    return "_-QZ";
+  static get attackedId() { //
+    return "_-U3P";
   }
 
-  static get attackHp() {
-    return "_-c3v"; 
+  static get attackHp() { //
+    return "_-D57"; 
   }
 
-  static get attackShd() {
-    return "_-dF"; 
+  static get attackShd() { //
+    return "_-Vb"; 
   }
 
   //END ATTACH SECTION
@@ -35,7 +35,7 @@ class Variables {
   //START MOVE DURATION SECTION
 
   /*
-  23440|{
+  90|{
     "x":18549,
     "userId":150200265,
     "y":8742,
@@ -43,8 +43,8 @@ class Variables {
   }
   */
 
-  static get moveDuration() {
-    return "_-U4F"; 
+  static get moveDuration() { //
+    return "_-Wt"; 
   }
 
   //END MOVE DURATION SECTION
@@ -52,14 +52,14 @@ class Variables {
   //START SHIP DESTROYED SECTION
 
   /*
-  6187|{
-    "_-eo":150200289, = shipDestroyedId
+  30|{
+    "_-41f":150200289, = shipDestroyedId
     "_-y13":0
   }
   */
 
-  static get shipDestoyedId() {
-    return "_-m21";
+  static get shipDestoyedId() { //
+    return "_-41f"; 
   }
 
   //END SHIP DESTROYED SECTION
@@ -67,7 +67,7 @@ class Variables {
   //START INIT SECTION
 
   /*
-  7795|{
+  49|{
     "shield":0,
     "factionId":3,
     "speed":294,
@@ -103,16 +103,16 @@ class Variables {
   }
   */
 
-  static get heroInitMaxHp() {
-    return "_-u0";
+  static get heroInitMaxHp() { //
+    return "_-d3G";
   }
 
-  static get heroInitMaxShd() {
-    return "_-B1i";
+  static get heroInitMaxShd() { //
+    return "_-Y45";
   }
 
-  static get heroInitHp() {
-    return "_-P1F";
+  static get heroInitHp() { //
+    return "_-A4c";
   }
 
   //END INIT SECTION
@@ -120,7 +120,7 @@ class Variables {
   //START UPDATE HP SECTION
 
   /*
-  20733|{
+  1300|{
     "_-R1E":0,
     "hitpoints":90286,
     "_-b3X":116000, = updateMaxHp
@@ -128,8 +128,8 @@ class Variables {
   }
   */
 
-  static get hpUpdateMaxHp() {
-    return "_-n1e";
+  static get hpUpdateMaxHp() { //
+    return "_-43H";
   }
 
   //END UPDATE HP SECTION
@@ -137,7 +137,7 @@ class Variables {
   //START SHIPSELECT SECTION
 
   /*
-  7422|{
+  50|{
     "shield":21750,
     "_-a2v":3,
     "userId":171552975,
@@ -150,12 +150,12 @@ class Variables {
   }
   */
 
-  static get selectMaxHp() {
-    return "_-n1e"; 
+  static get selectMaxHp() { //
+    return "_-43H"; 
   }
 
-  static get selectMaxShd() {
-    return "_-B1i";
+  static get selectMaxShd() { //
+    return "_-Y45";
   }
 
   //END SHIPSELECT SECTION
@@ -163,7 +163,7 @@ class Variables {
   //START SHIP CREATE SECTION
 
   /*
-  24981|{
+  83|{
     "_-R3f":0,
     "typeId":"112",
     "_-A5b":0,
@@ -188,8 +188,8 @@ class Variables {
   }
   */
 
-  static get clanDiplomacy() {
-    return "_-f3P";
+  static get clanDiplomacy() { //
+    return "_-1o";
   }
 
   //END SHIP CREATE SECTION
@@ -197,7 +197,7 @@ class Variables {
   //START CBS SECTION
 
   /*
-  730|{
+  26629|{
     "userName":"Kepler",
     "clanTag":"",
     "factionId":3,
@@ -217,16 +217,16 @@ class Variables {
   }
   */
 
-  static get assetCreateY() {
-    return "_-G1O";
+  static get assetCreateY() { //
+    return "_-u3I";
   }
 
-  static get assetCreateX() {
-    return "_-23n";
+  static get assetCreateX() { //
+    return "_-aP";
   }
 
-  static get battlestationClanDiplomacy() {
-    return "_-L1n";
+  static get battlestationClanDiplomacy() { //
+    return "_-j3o";
   }
 
   //END CBS SECTION
@@ -234,7 +234,7 @@ class Variables {
   //START GATES SECTION
 
   /*
-  12684|{
+  3389|{
     "x":2000,
     "y":2000,
     "_-E3p":true,
@@ -246,12 +246,12 @@ class Variables {
   }
   */
 
-  static get gateId() {
-    return "_-l4a";
+  static get gateId() { //
+    return "_-X4y";
   }
 
-  static get gateType() {
-    return "_-b4D";
+  static get gateType() { //
+    return "_-I5K";
   }
 
   //END GATES SECTION
@@ -259,7 +259,7 @@ class Variables {
   //START PET SECTION
 
   /*
-  9057|{
+  155|{
     "x":23559,
     "_-a2v":22,
     "_-R3f":0,
@@ -276,12 +276,12 @@ class Variables {
   }
   */
 
-  static get petId() {
-    return "_-EV";
+  static get petId() { //
+    return "_-uU";
   }
 
-  static get petMasterId() {
-    return "_-Z41";
+  static get petMasterId() { //
+    return "_-A3w";
   }
 
   //END PET SECTION
