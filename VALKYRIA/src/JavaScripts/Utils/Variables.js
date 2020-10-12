@@ -14,20 +14,20 @@ class Variables {
   }
   */
 
-  static get attackerId() { //
-    return "_-c3k";
+  static get attackerId() { 
+    return "_-O2D";
   }
 
-  static get attackedId() { //
-    return "_-U3P";
+  static get attackedId() { 
+    return "_-db";
   }
 
-  static get attackHp() { //
-    return "_-D57"; 
+  static get attackHp() { 
+    return "_-L1i"; 
   }
 
-  static get attackShd() { //
-    return "_-Vb"; 
+  static get attackShd() { 
+    return "_-O5G"; 
   }
 
   //END ATTACH SECTION
@@ -43,8 +43,8 @@ class Variables {
   }
   */
 
-  static get moveDuration() { //
-    return "_-Wt"; 
+  static get moveDuration() { 
+    return "_-72C"; 
   }
 
   //END MOVE DURATION SECTION
@@ -58,8 +58,8 @@ class Variables {
   }
   */
 
-  static get shipDestoyedId() { //
-    return "_-41f"; 
+  static get shipDestoyedId() { 
+    return "_-rd"; 
   }
 
   //END SHIP DESTROYED SECTION
@@ -103,16 +103,16 @@ class Variables {
   }
   */
 
-  static get heroInitMaxHp() { //
-    return "_-d3G";
+  static get heroInitMaxHp() {
+    return "_-U1V";
   }
 
-  static get heroInitMaxShd() { //
-    return "_-Y45";
+  static get heroInitMaxShd() { 
+    return "_-M14";
   }
 
-  static get heroInitHp() { //
-    return "_-A4c";
+  static get heroInitHp() { 
+    return "_-Q50";
   }
 
   //END INIT SECTION
@@ -128,8 +128,8 @@ class Variables {
   }
   */
 
-  static get hpUpdateMaxHp() { //
-    return "_-43H";
+  static get hpUpdateMaxHp() { 
+    return "_-v4m";
   }
 
   //END UPDATE HP SECTION
@@ -150,12 +150,12 @@ class Variables {
   }
   */
 
-  static get selectMaxHp() { //
-    return "_-43H"; 
+  static get selectMaxHp() { 
+    return "_-v4m"; 
   }
 
-  static get selectMaxShd() { //
-    return "_-Y45";
+  static get selectMaxShd() { 
+    return "_-M14";
   }
 
   //END SHIPSELECT SECTION
@@ -188,8 +188,8 @@ class Variables {
   }
   */
 
-  static get clanDiplomacy() { //
-    return "_-1o";
+  static get clanDiplomacy() { 
+    return "_-DS";
   }
 
   //END SHIP CREATE SECTION
@@ -217,16 +217,16 @@ class Variables {
   }
   */
 
-  static get assetCreateY() { //
-    return "_-u3I";
+  static get assetCreateY() { 
+    return "_-75t";
   }
 
-  static get assetCreateX() { //
-    return "_-aP";
+  static get assetCreateX() { 
+    return "_-XB";
   }
 
-  static get battlestationClanDiplomacy() { //
-    return "_-j3o";
+  static get battlestationClanDiplomacy() { 
+    return "_-Z3R";
   }
 
   //END CBS SECTION
@@ -246,12 +246,12 @@ class Variables {
   }
   */
 
-  static get gateId() { //
-    return "_-X4y";
+  static get gateId() { 
+    return "_-L19";
   }
 
-  static get gateType() { //
-    return "_-I5K";
+  static get gateType() { 
+    return "_-M18";
   }
 
   //END GATES SECTION
@@ -276,12 +276,12 @@ class Variables {
   }
   */
 
-  static get petId() { //
-    return "_-uU";
+  static get petId() { 
+    return "_-M1l";
   }
 
-  static get petMasterId() { //
-    return "_-A3w";
+  static get petMasterId() { 
+    return "_-v2f";
   }
 
   //END PET SECTION
