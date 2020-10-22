@@ -4,7 +4,7 @@ class WindowFactory {
   static createWindow(params) {
     if (!window.mainFrameWindow) {
       window.mainFrameWindow = this.windowsStructure({
-        text: "Windows | VALKYRIA | v.30",
+        text: "Windows | VALKYRIA | v.31",
         isMain: true
       })[0];
 

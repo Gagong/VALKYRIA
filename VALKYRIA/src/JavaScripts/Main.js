@@ -16,6 +16,7 @@ $(document).ready(function () {
     window.fightPresetsManager = new FightPresetsManager(new MixerFightPreset());
 
     let hm = new HandlersManager(api);
+    ///*
     hm.registerCommand(AssetCreatedHandler.ID, new AssetCreatedHandler());
     hm.registerCommand(GateInitHandler.ID, new GateInitHandler());
     hm.registerCommand(HeroInitHandler.ID, new HeroInitHandler(init));
@@ -31,6 +32,7 @@ $(document).ready(function () {
     hm.registerEvent("updateHeroPos", new HeroPositionUpdateEventHandler());
     hm.registerEvent("ammoUpdate", new AmmoUpdateEventHandler());
     hm.registerEvent("petGearUpdate", new PetGearUpdatedEventHandler());
+    //*/
     hm.listen();
 
     window.keyManager = new KeyEventsManager();
