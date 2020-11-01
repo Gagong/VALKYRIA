@@ -15,19 +15,19 @@ class Variables {
   */
 
   static get attackerId() { 
-    return "_-u4z";
+    return "_-F5y";
   }
 
   static get attackedId() { 
-    return "_-136";
+    return "_-X2c";
   }
 
   static get attackHp() { 
-    return "_-13s"; 
+    return "_-82K"; 
   }
 
   static get attackShd() { 
-    return "_-n2r"; 
+    return "_-7N"; 
   }
 
   //END ATTACH SECTION
@@ -44,7 +44,7 @@ class Variables {
   */
 
   static get moveDuration() { 
-    return "_-v1n"; 
+    return "_-s1m"; 
   }
 
   //END MOVE DURATION SECTION
@@ -59,7 +59,7 @@ class Variables {
   */
 
   static get shipDestoyedId() { 
-    return "_-q3p"; 
+    return "_-M3b"; 
   }
 
   //END SHIP DESTROYED SECTION
@@ -104,15 +104,15 @@ class Variables {
   */
 
   static get heroInitMaxHp() { 
-    return "_-b2U";
+    return "_-l1z";
   }
 
   static get heroInitMaxShd() { 
-    return "_-T3l";
+    return "_-33K";
   }
 
   static get heroInitHp() { 
-    return "_-74x";
+    return "_-023";
   }
 
   //END INIT SECTION
@@ -129,7 +129,7 @@ class Variables {
   */
 
   static get hpUpdateMaxHp() { 
-    return "_-n2u";
+    return "_-U3s";
   }
 
   //END UPDATE HP SECTION
@@ -151,11 +151,11 @@ class Variables {
   */
 
   static get selectMaxHp() { 
-    return "_-n2u"; 
+    return "_-U3s"; 
   }
 
   static get selectMaxShd() { 
-    return "_-T3l";
+    return "_-33K";
   }
 
   //END SHIPSELECT SECTION
@@ -189,7 +189,7 @@ class Variables {
   */
 
   static get clanDiplomacy() { 
-    return "_-Ig";
+    return "_-O1d";
   }
 
   //END SHIP CREATE SECTION
@@ -218,15 +218,15 @@ class Variables {
   */
 
   static get assetCreateX() { 
-    return "_-b4W";
+    return "_-x45";
   }
 
   static get assetCreateY() { 
-    return "_-c2u";
+    return "_-05f";
   }
 
   static get battlestationClanDiplomacy() { 
-    return "_-E4Z";
+    return "_-O4";
   }
 
   //END CBS SECTION
@@ -247,11 +247,11 @@ class Variables {
   */
 
   static get gateId() { 
-    return "_-c4O";
+    return "_-X4o";
   }
 
   static get gateType() { 
-    return "_-74b";
+    return "_-91o";
   }
 
   //END GATES SECTION
@@ -277,11 +277,11 @@ class Variables {
   */
 
   static get petId() { 
-    return "_-L3v";
+    return "_-B22";
   }
 
   static get petMasterId() { 
-    return "_-y2U";
+    return "_-T50";
   }
 
   //END PET SECTION
